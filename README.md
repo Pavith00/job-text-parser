@@ -57,20 +57,6 @@ After training, the model is saved to Google Drive for later use. We can load th
 
 ---
 
-## **Project Structure**
-
-```
-CV_Project/
-│
-├── criteria.csv             # The CSV file containing job criteria and applicants' qualifications
-├── criteria_ner_model/      # Folder to store the trained NER model
-│   └── <model files>        # Files for the trained spaCy model
-├── train_spacy_model.py     # Script to train the spaCy NER model
-└── README.md                # This README file
-```
-
----
-
 ## **Installation and Setup**
 
 1. **Install spaCy**:
